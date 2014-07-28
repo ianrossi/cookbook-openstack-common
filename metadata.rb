@@ -17,6 +17,6 @@ recipe           'openstack-common::openrc', 'Creates openrc file'
 end
 
 depends          'apt', '>= 2.3.8'
-depends          'database', '>= 2.0.0'
+depends          'database', '~> 2.2'
 depends          'yum', '>= 3.1.4'
 depends          'yum-epel', '>= 0.3.4'
